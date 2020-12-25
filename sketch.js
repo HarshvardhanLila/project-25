@@ -26,7 +26,7 @@ function setup() {
   leftSide = new Dustbin(550, 620, 20, 100);
   bottom = new Dustbin(610, 660, 100, 20);
   rightSide = new Dustbin(670, 620, 20, 100)
-  keyPressed();
+  
 	Engine.run(engine);
   
 }
